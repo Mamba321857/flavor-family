@@ -1,0 +1,47 @@
+/* ═══════════════════════════════════════════
+   噜咪啦 · 风味探索家 - 品牌样式
+   ═══════════════════════════════════════════ */
+
+:root {
+  --brand: #E53935;
+  --brand-light: #FFEBEE;
+  --brand-blue: #2563EB;
+  --brand-blue-light: #EFF6FF;
+  --bg: #FFFFFF;
+  --bg-gray: #F8F9FA;
+  --bg-warm: #FFF8F0;
+  --text: #1C1917;
+  --text-secondary: #78716C;
+  --border: #E7E5E4;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+}
+
+/* range slider styling */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--brand);
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--brand);
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
