@@ -14,7 +14,7 @@ type Page = 'home' | 'lab' | 'map' | 'profile' | 'trace' | 'funeral' | 'activiti
 
 export default function HomePage({ navigate }: { navigate: (p: Page) => void }) {
   const [bannerIdx, setBannerIdx] = useState(0);
-  const banners = ['/images/banner-chips-field.jpg', '/images/banner-chicken-feet.jpg'];
+  const banners = ['./images/banner-chips-field.jpg', './images/banner-chicken-feet.jpg'];
 
   useEffect(() => {
     const timer = setInterval(() => setBannerIdx(i => (i + 1) % banners.length), 4000);
@@ -161,7 +161,7 @@ export default function HomePage({ navigate }: { navigate: (p: Page) => void }) 
             <span className="px-2 py-0.5 bg-red-50 rounded-full text-[10px] text-[#E53935] font-bold">火热预约中</span>
           </div>
           <div className="flex gap-3">
-            <img src="/images/new-product.jpg" alt="" className="w-20 h-20 rounded-xl object-cover shadow-sm" />
+            <img src="./images/new-product.jpg" alt="" className="w-20 h-20 rounded-xl object-cover shadow-sm" />
             <div className="flex-1 flex flex-col justify-center">
               <p className="text-base font-extrabold text-stone-800">非遗联名限定系列</p>
               <p className="text-[11px] text-stone-400 mt-0.5">敦煌飞天 · 景泰蓝 · 皮影戏</p>

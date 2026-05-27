@@ -41,7 +41,7 @@ export default function TastingPage({ navigate }: { navigate: (p: Page) => void 
 
       {/* 活动头图 */}
       <div className="mx-3 mt-3 rounded-2xl overflow-hidden shadow-sm relative h-44">
-        <img src="/images/tasting-event.jpg" alt="" className="w-full h-full object-cover" />
+        <img src="./images/tasting-event.jpg" alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         <div className="absolute bottom-3 left-3">
           <p className="text-white text-sm font-bold">噜咪啦品鉴会</p>

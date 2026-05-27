@@ -51,7 +51,7 @@ export default function LabPage({ navigate }: { navigate: (p: Page) => void }) {
 
       {/* IP形象引导 */}
       <div className="mx-4 mb-4 flex items-center gap-3 bg-white rounded-2xl p-3 shadow-sm">
-        <img src="/images/lumila-ip.jpg" alt="" className="w-12 h-12 rounded-xl object-cover" />
+        <img src="./images/lumila-ip.jpg" alt="" className="w-12 h-12 rounded-xl object-cover" />
         <div>
           <p className="text-sm font-bold text-stone-800">用{INGREDIENTS.length}种原料创造你的专属口味</p>
           <p className="text-[10px] text-stone-400">选择原料 → 调整参数 → 生成口味</p>
@@ -160,7 +160,7 @@ export default function LabPage({ navigate }: { navigate: (p: Page) => void }) {
             className="px-4 mt-4 mb-2">
             <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
               <div className="h-52 relative">
-                <img src="/images/chips-bag.png" alt="" className="w-full h-full object-cover" />
+                <img src="./images/chips-bag.png" alt="" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
                   <p className="text-white/50 text-[10px] uppercase tracking-widest mb-1">Your Creation</p>

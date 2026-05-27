@@ -52,7 +52,7 @@ export default function TracePage({ navigate }: { navigate: (p: Page) => void })
       {/* 农场信息 */}
       <div className="mx-3 mt-3 bg-white rounded-2xl p-4 shadow-sm">
         <div className="flex items-center gap-3 mb-3">
-          <img src="/images/lumila-ip.jpg" alt="" className="w-14 h-14 rounded-xl object-cover" />
+          <img src="./images/lumila-ip.jpg" alt="" className="w-14 h-14 rounded-xl object-cover" />
           <div>
             <p className="text-sm font-bold text-stone-800">噜咪啦高原农场</p>
             <div className="flex items-center gap-1 text-[10px] text-stone-400">

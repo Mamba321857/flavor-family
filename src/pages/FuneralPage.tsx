@@ -46,7 +46,7 @@ export default function FuneralPage({ navigate }: { navigate: (p: Page) => void 
 
       {/* 头图 */}
       <div className="mx-3 mt-1 rounded-2xl overflow-hidden relative h-48">
-        <img src="/images/flavor-exam-header.jpg" alt="" className="w-full h-full object-cover" />
+        <img src="./images/flavor-exam-header.jpg" alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
       </div>
 

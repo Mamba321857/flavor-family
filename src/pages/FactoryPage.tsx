@@ -14,7 +14,7 @@ export default function FactoryPage({ navigate }: { navigate: (p: Page) => void 
 
       {/* 头图 */}
       <div className="mx-3 mt-3 rounded-2xl overflow-hidden shadow-sm relative h-48">
-        <img src="/images/factory-tour.jpg" alt="" className="w-full h-full object-cover" />
+        <img src="./images/factory-tour.jpg" alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         <div className="absolute bottom-3 left-3 right-3">
           <p className="text-white text-base font-bold">噜咪啦工厂开放日</p>
