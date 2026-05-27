@@ -1,11 +1,11 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Home, Map, User, Beaker, Vote,
+  Map, Beaker, Vote,
   Sparkles, ChevronRight,
-  Gift, Share2, Heart, Check, Lock, X, Trash2,
+  Gift,
   ScanLine, CreditCard, Star, QrCode,
-  Calendar, Clock, MapPin,
+  Clock, MapPin,
   Award, ChevronLeft, UserPlus,
 } from 'lucide-react';
 import {
