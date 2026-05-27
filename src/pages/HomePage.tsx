@@ -5,13 +5,9 @@ import {
   Sparkles, ChevronRight,
   Gift,
   ScanLine, CreditCard, Star, QrCode,
-  Clock, MapPin,
-  Award, ChevronLeft, UserPlus,
 } from 'lucide-react';
 import {
-  PROVINCES, INGREDIENTS, INGREDIENT_CATEGORIES,
-  FLAVOR_NAMES, DEFAULT_FLAVORS,
-  MEMBER_LEVELS, BADGES, FLAVOR_VOTES,
+  BADGES,
 } from '../data';
 
 type Page = 'home' | 'lab' | 'map' | 'profile' | 'trace' | 'funeral' | 'activities' | 'tasting' | 'factory' | 'flavor_vote';
