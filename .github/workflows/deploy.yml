@@ -30,11 +30,8 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Remove private package from deps
-        run: npm pkg delete devDependencies.kimi-plugin-inspect-react
-
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run build

@@ -4,12 +4,12 @@ import { defineConfig } from "vite"
 
 const plugins: any[] = [react()]
 
-// kimi-plugin-inspect-react may not be available in all environments
+// kimi-plugin-inspect-react may not be available in CI environments
 try {
   const { inspectAttr } = await import('kimi-plugin-inspect-react')
   plugins.unshift(inspectAttr())
 } catch {
-  // plugin not available, skip
+  // skip - plugin not available
 }
 
 // https://vite.dev/config/
